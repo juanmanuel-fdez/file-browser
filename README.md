@@ -27,7 +27,7 @@ file-browser supports following command line switches for additional functinalit
 ``` 
 
 ## Screenshot
-![alt File browser screenshot](https://raw.githubusercontent.com/juanmanuel-fdez/file-browser/master/file-browser.png" "File browser screenshot")
+![alt File browser screenshot](https://raw.githubusercontent.com/juanmanuel-fdez/file-browser/master/file-browser.png)
 
 ## References & sources
 
