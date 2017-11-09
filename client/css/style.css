@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+*{
+	font-family: Verdana;
+}
+
+body{
+	margin:0;
+	padding:0;
+	background-color:#ece8ef;
+}
+
+a{
+	text-decoration:none;
+	color:#128fd4;
+}
+
+.defaultPadding{
+	padding-left:10em;
+	padding-right:10em;
+}
+
+/***********************************************************/
+/* header */
+/***********************************************************/
+header{
+	background-color:#00a676;
+	margin:0;
+	height:10em;
+}
+
+header h1{
+	margin:0;
+	padding:0;
+	background-image:url('../images/logo.jpg');
+	background-repeat:no-repeat;
+	background-position:left;
+	line-height:5em;
+	padding-left:8em;
+	color: #f7f9f9;
+}
+
+/***********************************************************/
+/* nav */
+/***********************************************************/
+nav{
+	margin:0;
+	line-height:2.5em;
+	font-weight: bold;
+	color: #00a676;
+}
+
+/***********************************************************/
+/* asside tools */
+/***********************************************************/
+aside{
+	background-color:#c6e2e9;
+	margin:0;
+	line-height:2.5em;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: end;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #ea526f;
+	border-radius: 0.5em;
+}
+
+.upload-btn{
+	color: #128fd4;
+	cursor:pointer;
+}
+.upload-btn img{
+	height:2.5em;
+	vertical-align: middle;
+}
+
+/***********************************************************/
+/* main */
+/***********************************************************/
+
+
+/*files*/
+main div.file-item{
+	line-height: 3em;
+	display: flex;
+}
+
+main div.file-item:nth-child(even){
+	background-color:#f1f1f1;
+}
+
+main div.file-item:nth-child(odd){
+	background-color:#f7f9f9;
+}
+
+main div.file-item div{
+	display:inline-block;
+}
+
+main div.file-item div.file-icon{
+	border-radius:100%;
+	background-color:white;
+	margin:0.25em;
+	margin-right:2em;
+	padding:0.25em;
+	width:2.5em;
+	height:2.5em;
+	line-height: initial;
+}
+
+main div.file-item div.file-icon img{
+	vertical-align:middle;
+	max-height: 2em;
+	max-width: 2em;
+	margin:auto;
+	display:block;
+	margin-top: 0.25em;
+	margin-bottom: 0.25em
+}
+
+main div.file-name{
+	width: calc(100% - 7.5em);
+}
+
+main div.file-download{
+	width:2.5em;
+	float:right;
+}
+
+main div.file-download img{
+	width:2.5em;
+	vertical-align: middle;
+}
+/***********************************************************/
+/* footer */
+/***********************************************************/
+footer{
+	text-align:right;
+	padding-right:2.5em;
+	color:#128fd4;
+}

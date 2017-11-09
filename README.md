@@ -1,6 +1,8 @@
 file-browser
 ============
-file-browser is a utility to browse files on your file system using your browser. Its equivalent of creating a file share that can be accessed over http. Using this you can share files between different machines, and across different operating systems. 
+file-browser is a utility to browse and upload files on your file system using your browser. Its equivalent of creating a file share that can be accessed over http. Using this you can share files between different machines, and across different operating systems. 
+
+Based on the sumitchawla/file-browser, this version includes the posibility to upload files and a different UI to browse the file system.
 
 ## How to install
 ```js
@@ -20,7 +22,23 @@ file-browser supports following command line switches for additional functinalit
 ```js
     -p, --port <port>        Port to run the file-browser. Default value is 8088
     -e, --exclude <exclude>  File extensions to exclude. To exclude multiple extension pass -e multiple times. e.g. ( -e .js -e .cs -e .swp)
+    -d, --directory <dir>    Path to the directory you want to serve. Default is current directory.
+
 ``` 
 
-## ScreenShot
-<img src="https://raw.githubusercontent.com/sumitchawla/file-browser/master/file-browser.png"/>
+## Screenshot
+![alt File browser screenshot](https://raw.githubusercontent.com/juanmanuel-fdez/file-browser/master/file-browser.png" "File browser screenshot")
+
+## References & sources
+
+### Original idea & code
+sumitchawla: [Blog post](https://chawlasumit.wordpress.com/2014/08/04/how-to-create-a-web-based-file-browser-using-nodejs-express-and-jquery-datatables/) & [Code](https://github.com/sumitchawla/file-browser)
+
+### Upload feature 
+FadyMak @ coligo-io [Blog post](https://coligo.io/building-ajax-file-uploader-with-node/) & [Code](https://github.com/coligo-io/file-uploader)
+
+### Icons
+[hawcons](https://www.iconfinder.com/iconsets/hawcons) by Yannick Lung
+
+### Generic Logo
+[gtdesigns](http://www.gtdesigns.it/overusedlogos/)
