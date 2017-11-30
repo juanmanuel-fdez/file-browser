@@ -6,7 +6,7 @@ Based on the sumitchawla/file-browser, this version includes the posibility to u
 
 ## How to install
 ```js
-  npm -g install file-browser
+  npm install
 ```
 
 ## How to Run
